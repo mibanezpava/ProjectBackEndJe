@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.scss */
+
+/* Importa Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/* Importa estilos globales de Angular Material si es necesario */
+/* Puedes agregar personalizaciones aquí */
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
