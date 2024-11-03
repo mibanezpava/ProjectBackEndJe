@@ -6,7 +6,7 @@
           <h2 class="text-center mb-4">Iniciar Sesión</h2>
           <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
             <mat-form-field appearance="fill" class="w-100 mb-3">
-              <mat-label>Usuario</mat-label>
+              <mat-label>Usuarios</mat-label>
               <input matInput formControlName="username" required />
               <mat-error *ngIf="loginForm.get('username')?.hasError('required')">
                 El campo de usuario es requerido.
